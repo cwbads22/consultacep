@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="Consulta CEP by Luciano - CWB ADS 2022">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Consulta CEP</title>
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="logo">
+        <a href="index.html"><img src="logo01.png"></a>
+    </div>
+    <div class="container">
+        <h2>Consulta CEP</h2>
+        <form>
+            <div class="frm-row">
+                <label for="cep">CEP - 8 dígitos</label>
+                <input type="text" name="cep" id="cep" onfocus="this.value=''" maxlength="8">
+            </div>
+            <div class="frm-row">
+                <label for="rua">Rua</label>
+                <input type="text" name="rua" id="rua">
+            </div>
+            <div class="frm-row">
+                <label for="bairro">Bairro</label>
+                <input type="text" name="bairro" id="bairro">
+            </div>
+            <div class="frm-row">
+                <label for="cidade">Cidade</label>
+                <input type="text" name="cidade" id="cidade">
+            </div>
+            <div class="frm-row">
+                <label for="estado">Estado</label>
+                <input type="text" name="estado" id="estado">
+            </div>
+        </form>
+
+        <a href="findcep.html">Não sabe o CEP?</a>
+
+    </div>
+    <footer>
+        Copyleft - 2022 CWB ADS 
+    </footer>
+    <script src="script.js">
+        
+    </script>
+</body>
+</html>
